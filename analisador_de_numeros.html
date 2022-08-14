@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./baseScript.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    
+    <section id="middle_block">
+        <div>
+            <label for="txtn">Número (entre 1 a 100) </label>
+            <input type="number" name="txtn" id="txtn">
+            <input type="button" value="Adicionar" onclick="add()">
+        </div>
+        <br>
+        <div>
+            <select name="caixa" id="caixa" size="10"></select>
+            <br><br>
+            <input type="button" value="Finalizar" onclick="calcular()">
+            <p id="res"></p>
+
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; CursoemVídeo</p>
+    </footer>
+    
+</body>
+</html>
